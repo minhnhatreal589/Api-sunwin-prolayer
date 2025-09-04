@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # URL API gốc để lấy dữ liệu
-SOURCE_API_URL = "https://ahihidonguoccut.onrender.com/mohobomaycai"
+SOURCE_API_URL = "https://ahihidonguoccut-2b5i.onrender.com/mohobomaycai"
 
 # Biến toàn cục lưu trữ lịch sử các phiên và dự đoán (lưu full, không giới hạn)
 historical_data = []
